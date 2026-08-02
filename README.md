@@ -1,36 +1,36 @@
-# NYC Household Vehicle Survey — Dashboard
+# داشبورد تحليل بيانات مركبات الأسر في نيويورك
 
-## Overview
-Interactive Excel dashboard analyzing household vehicle data from NYC's 
-Citywide Mobility Survey (data.cityofnewyork.us, dataset qhkz-4dqm). 
-The dataset covers 1,784 vehicle records across NYC households.
+## نظرة عامة
+داشبورد تفاعلي في Excel لتحليل بيانات مركبات الأسر من استطلاع 
+"Citywide Mobility Survey" الخاص بمدينة نيويورك (data.cityofnewyork.us، 
+داتاسيت qhkz-4dqm). الداتا تغطي 1,784 سجل مركبة موزعة على أسر المدينة.
 
-## What I Did
-- Cleaned and validated the raw data (checked for duplicates on hh_id)
-- Built a fuel-type lookup table and mapped numeric codes to readable labels
-- Created calculated columns: vehicle age and age group classification
-- Built 3 Pivot Tables and matching charts:
-  - Vehicle count by fuel type
-  - Average vehicle age by fuel type
-  - Average citywide statistical weight by fuel type
-- Added an interactive Slicer connected to all Pivot Tables
-- Applied a consistent color theme across the dashboard
+## اللي عملته
+- نضّفت وتحققت من صحة البيانات الخام (تأكدت من عدم وجود تكرار في hh_id)
+- بنيت جدول Lookup لربط أكواد نوع الوقود الرقمية بأسمائها الحقيقية
+- أضفت أعمدة محسوبة: عمر المركبة، وتصنيف فئات عمرية
+- بنيت 3 Pivot Tables وشارتات مرتبطة بيها:
+  - عدد المركبات حسب نوع الوقود
+  - متوسط عمر المركبة حسب نوع الوقود
+  - متوسط الوزن الإحصائي (على مستوى المدينة) حسب نوع الوقود
+- أضفت Slicer تفاعلي مربوط بكل الـ Pivot Tables مع بعض
+- وحّدت هوية الألوان في التصميم البصري للداشبورد
 
-## Key Insights
-1. Gasoline vehicles dominate the sample (90.9%, 1,622 of 1,784 records)
-2. Hybrid and Electric vehicles are notably newer on average (3.6 and 4.9 
-   years) compared to Gasoline and Diesel (10.3 and 7 years)
-3. Plug-in Hybrid and "Don't Know" fuel-type categories show extreme 
-   average values (highest citywide weight and highest vehicle age, 
-   respectively) — but each contains only 2-3 records out of 1,784, so 
-   these averages are not statistically reliable
+## أهم الاستنتاجات (Insights)
+1. مركبات البنزين تمثل الأغلبية الساحقة في العينة (90.9%، أي 1,622 
+   من أصل 1,784 سجل)
+2. المركبات الهجينة (Hybrid) والكهربائية (Electric) هي الأحدث عمرًا 
+   بشكل ملحوظ (متوسط 3.6 و4.9 سنة) مقارنة بالبنزين والديزل (10.3 و7 سنوات)
+3. فئتا "Plug-in Hybrid" و"Don't Know" سجّلتا قيمًا متطرفة (أعلى وزن 
+   إحصائي وأعلى متوسط عمر على التوالي) — لكن كل فئة منهما تحتوي على 
+   2-3 سجلات فقط من إجمالي 1,784، لذلك هذه المتوسطات غير موثوقة إحصائيًا
 
-## AI Assistance Disclosure
-I used Claude (Anthropic) as a learning guide throughout this project — 
-it explained concepts (VLOOKUP, nested IF/IFS, Pivot Table mechanics, 
-Slicer connections) and reviewed my work step-by-step, but I built the 
-formulas, Pivot Tables, charts, and dashboard myself in Excel.
+## الإفصاح عن استخدام الذكاء الاصطناعي
+استخدمت Claude (من Anthropic) كموجّه تعليمي طوال المشروع — كان بيشرحلي 
+المفاهيم (VLOOKUP، الـ IF/IFS المتداخلة، آلية عمل Pivot Tables، ربط 
+الـ Slicer) وبيراجع شغلي خطوة بخطوة، لكن أنا اللي بنيت المعادلات 
+والـ Pivot Tables والشارتات والداشبورد بنفسي في Excel.
 
-## Data Source
+## مصدر البيانات
 NYC Open Data — Citywide Mobility Survey, Vehicle table
 https://data.cityofnewyork.us/resource/qhkz-4dqm.json
