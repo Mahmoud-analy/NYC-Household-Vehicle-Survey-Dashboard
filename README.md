@@ -1,5 +1,5 @@
 # داشبورد تحليل بيانات مركبات الأسر في نيويورك
-
+![Dashboard Screenshot](dashboard.png)
 ## نظرة عامة
 داشبورد تفاعلي في Excel لتحليل بيانات مركبات الأسر من استطلاع 
 "Citywide Mobility Survey" الخاص بمدينة نيويورك (data.cityofnewyork.us، 
