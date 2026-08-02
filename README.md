@@ -30,5 +30,4 @@
 المفاهيم (VLOOKUP، الـ IF/IFS المتداخلة، آلية عمل Pivot Tables، ربط 
 الـ Slicer) وبيراجع شغلي خطوة بخطوة، لكن أنا اللي بنيت المعادلات 
 والـ Pivot Tables والشارتات والداشبورد بنفسي في Excel.
-<img width="1300" height="542" alt="dashboard" src="https://github.com/user-attachments/assets/37e2ed24-87c1-4586-a15c-c06d85e9652f" />
 
