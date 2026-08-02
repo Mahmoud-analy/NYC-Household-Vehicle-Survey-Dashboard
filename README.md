@@ -31,6 +31,3 @@
 الـ Slicer) وبيراجع شغلي خطوة بخطوة، لكن أنا اللي بنيت المعادلات 
 والـ Pivot Tables والشارتات والداشبورد بنفسي في Excel.
 
-## مصدر البيانات
-NYC Open Data — Citywide Mobility Survey, Vehicle table
-https://data.cityofnewyork.us/resource/qhkz-4dqm.json
